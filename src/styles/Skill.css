@@ -1,0 +1,54 @@
+/* General Reset */
+
+/* Skills Section */
+.skills-section { 
+    text-align: center;
+    
+    }
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-top: 10px;
+    color: #020303;
+}
+
+/* Skills Grid */
+.skills-grid {
+    background: linear-gradient(180deg, #4a90e2, #001f3f);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.skills-category {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category h3 {
+    font-size: 24px;
+    color: #0072ff;
+    margin-bottom: 15px;
+}
+
+.skills-category ul {
+    list-style: none;
+}
+
+.skills-category ul li {
+    font-size: 18px;
+    padding: 8px 0;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}

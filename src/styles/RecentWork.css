@@ -1,0 +1,165 @@
+.recent-work-section {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #f5f3f3;
+  font-family: Arial, sans-serif;
+  color: #f4f3f3;
+}
+
+.recent-work-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.intro-text {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #aaa;
+}
+
+.recent-work-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  background-color: #222;
+  width: 25%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+}
+
+.work-info {
+  padding: 20px;
+}
+
+.work-info h3 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.work-info p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.work-btn {
+  background-color: #b5c4a5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.work-btn:hover {
+  background-color: #3D6BFF;
+}
+
+.work-item:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+
+/* Medium screens (tablets, small desktops) */
+@media screen and (max-width: 992px) {
+  .recent-work-section {
+    padding: 40px;
+  }
+
+  .work-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .work-info h3 {
+    font-size: 20px;
+  }
+
+  .work-info p {
+    font-size: 14px;
+  }
+
+  .work-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Small screens (mobile) */
+@media screen and (max-width: 768px) {
+  .recent-work-section {
+    padding: 30px;
+  }
+
+  .recent-work-section h2 {
+    font-size: 28px;
+  }
+
+  .intro-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .work-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .work-info h3 {
+    font-size: 18px;
+  }
+
+  .work-info p {
+    font-size: 14px;
+  }
+
+  .work-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+/* #3D6BFF */
+
+/* Extra small screens (mobile portrait) */
+@media screen and (max-width: 480px) {
+  .recent-work-section {
+    padding: 20px;
+  }
+
+  .recent-work-section h2 {
+    font-size: 24px;
+  }
+
+  .intro-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .work-info h3 {
+    font-size: 16px;
+  }
+
+  .work-info p {
+    font-size: 12px;
+  }
+
+  .work-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

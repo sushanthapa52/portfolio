@@ -1,0 +1,74 @@
+/* General styles */
+.about-section {
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0072ff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+}
+
+/* Bio */
+.bio {
+    flex: 2;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.bio p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Extra content */
+.extra-content {
+    margin-top: 20px;
+}
+
+/* See More button */
+.see-more-btn {
+    display: inline-block;
+    background-color: #0072ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
+
